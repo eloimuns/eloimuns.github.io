@@ -1,183 +1,146 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output. 
+# Be aware that even a small syntax error here can lead to failures in output.
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Eloi Carracedo
+    tagline: Software engineer 
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: eloimuns@gmail.com
+    phone: +34 620 650 167
+    website: eloimuns.me #do not add http://
+    linkedin: eloimuns
+    github: eloimuns
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@eloimuns'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
 
     languages:
-      - idiom: English
+      - idiom: Spanish
         level: Native
 
-      - idiom: French
-        level: Professional
+      - idiom: Catalan
+        level: Native
 
-      - idiom: Spanish
-        level: Professional
-        
+      - idiom: English
+        level: B2
+
     interests:
-      - item: Climbing
+      - item: Padel
+        link: 
+
+      - item: Android OS
         link:
 
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
+      - item: Gamming
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+      I born in Vic, small city near Barcelona at 1995. I consider myself as a 
+      person with a lot of desire to learn and with the hability to workin in a 
+      large teams. I'm original, geek and passionate about programming.
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Computer science
+      university: Universitat Oberta de Catalunya, Spain
+      time: 2016 - Present
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Computer science is the study of the theory, experimentation, and engineering that
+        form the basis for the design and use of computers.
 
-          - Bullet point
-          - Bullet point 
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: CFGS - Development of multiplatform apps
+      university: Teknós - Universitat de Vic, Spain
+      time: 2014 - 2016
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        I learned how to develop multiplatform apps in different languages.
+        I have skills in SQL, JavaScript, Java.
 
-          - Bullet point
-          - Bullet point 
+    - degree: CFGM - IT Systems and networks
+      university: INS Cirviànum - Torelló, Spain
+      time: 2011 - 2013
+      details: |
+        I learned how to repair and set up IT systems and network analysis tools.
+
+
 
 experiences:
-    - role: Lead Developer
+    - role: Software engineer
       time: 2015 - Present
-      company: Startup Hubs, San Francisco
+      company: Seidor, Spain
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        I'm a developer of a big project for education. I'm using Java with 
+        Spring Framework, Oracle SQL, and AngularJS. I also did some projects 
+        for different universities.
 
-          - Bullet point
-          - Bullet point 
+          - Java, JavaScript, SQL, CSS
+          - Spring Framework, AngularJS, Bootstrap
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Teacher
+      time: 2016
+      company: Universitat de Vic, Spain
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        I taught a group of 18 students on C++ language. They were training for the olympic 
+        Spanish C++ competition for young students (17 - 21).
 
-          - Bullet point
-          - Bullet point
+          - Teach C++
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Computer technician / Seller
+      time: 2014 - 2016
+      company: Isern SAU, Spain
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        My Job at ISERN was mainly post-sale tasks. I repaired computers and I 
+        did guarantee management for computers, mobile devices, tablets and 
+        different peripherals. I also use to help in the shop and in customer service.
 
-          - Bullet point
-          - Bullet point
-
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+          - Post sales, repair computers, guarantee management
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-
+      With schoolmates, we won a apps competition with Bshare!. Bshare was an app for 
+      share documents easily with just scan QR and joining groups. Ideally for avoiding 
+      PDFs/advertising brochures
     papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Bshare!
+        authors: Bernat Baulenas, Andreu Gallart, Eloi Carracedo
+        link: https://bit.ly/2MFp6Wf
+        conference: 
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+certificates:
+    title: Certificates
+    list:
+      - title: Java SE 7 Programmer I
+        link: https://www.youracclaim.com/badges/a51be76a-09dd-4ab9-a6ab-91de10d61d82/linked_in
+        company: Oracle
 
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+projects:
+    title: Projects
+    intro: >
+      I do some projects as a hobby in my free time. I started a community (aquaris-dev).
+      This one is dedicated mainly support LineageOS for different bq QCOM powered devices. 
+      This ROM let the user get more performance and more options to personalize mobile and 
+      lots of improvements in security.
+
+    assignments:
+      - title: Aquaris-dev
+        link: "https://aquaris-dev.org"
+        tagline: "LineageOS custom rom developer for different BQ devices."
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Java
         level: 98%
 
       - name: Javascript & jQuery
@@ -187,13 +150,19 @@ skills:
         level: 98%
 
       - name: HTML5 & CSS
-        level: 95%
+        level: 90%
 
-      - name: Ruby on Rails
+      - name: SQL
+        level: 90%
+
+      - name: GIT
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Android
+        level: 50%
+
+      - name: Xamarin
+        level: 50%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Designed with <i class="fas fa-heart"></i></a>
